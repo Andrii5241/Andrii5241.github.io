@@ -18,8 +18,20 @@
   width: 95%;
   border: 1px solid black;
   border-radius: 10px;
+  justify-content: space-around; /* Распределяет элементы с равными промежутками */
+  align-items: center; /* Выравнивает элементы по вертикали */
+  padding: 10px; /* Добавляет внутренние отступы */
+  box-sizing: border-box; 
 }
 
 .item{
-  
+  flex: 0 1 150px; /* Начальный размер 150px, позволяет уменьшаться и увеличиваться */
+  margin: 10px; /* Отступы между элементами */
+  border: 1px solid white;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+  text-align: center;
+  padding: 20px;
+  font-size: clamp(16px, 2vw, 24px); /* Размер шрифта для элементов */
+  color: #000; /* Цвет текста */
 }
