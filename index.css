@@ -27,11 +27,11 @@ body {
   margin: 1%; /* Отступы между элементами */
   border: 1px solid white;
   border-radius: 5px;
-  background: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+  background: rgba(3, 151, 1, 0.8); /* Полупрозрачный белый фон */
   text-align: center;
   padding: 20px;
   font-size: clamp(16px, 2vw, 24px); /* Адаптивный размер шрифта */
-  color: rgb(5, 255, 101); /* Цвет текста */
+  color: black; /* Цвет текста */
   display: flex; /* Включает Flexbox для элементов */
   justify-content: center; /* Центрирует текст по горизонтали */
   align-items: center; /* Центрирует текст по вертикали */
