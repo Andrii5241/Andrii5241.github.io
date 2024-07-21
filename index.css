@@ -1,4 +1,4 @@
-html, body {
+ body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -14,5 +14,4 @@ html, body {
 
 .content {
     flex: 1;
-    overflow: auto;
 }
