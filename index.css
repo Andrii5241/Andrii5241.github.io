@@ -1,37 +1,38 @@
- body {
+body {
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 100vw;
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 43%, rgba(0,212,255,1) 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.container{
+.container {
   display: flex;
-  flex-wrap: wrap;
-  height: 95%;
-  width: 95%;
+  flex-wrap: wrap; /* Позволяет элементам оборачиваться */
+  height: 95%; /* Высота контейнера */
+  width: 95%; /* Ширина контейнера */
   border: 1px solid black;
   border-radius: 10px;
-  justify-content: space-around; /* Распределяет элементы с равными промежутками */
-  align-items: center; /* Выравнивает элементы по вертикали */
-  padding: 10px; /* Добавляет внутренние отступы */
-  box-sizing: border-box; 
+  padding: 10px; /* Внутренние отступы */
+  box-sizing: border-box; /* Учитывает внутренние отступы и границы при расчете ширины и высоты */
 }
 
-.item{
-  flex: 0 1 150px; /* Начальный размер 150px, позволяет уменьшаться и увеличиваться */
-  margin: 10px; /* Отступы между элементами */
+.item {
+  flex: 1 1 48%; /* Задает ширину элементов примерно 48% от ширины контейнера, чтобы было по два элемента в строке с отступами */
+  margin: 1%; /* Отступы между элементами */
   border: 1px solid white;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
   text-align: center;
   padding: 20px;
-  font-size: clamp(16px, 2vw, 24px); /* Размер шрифта для элементов */
-  color: #000; /* Цвет текста */
+  font-size: clamp(16px, 2vw, 24px); /* Адаптивный размер шрифта */
+  color: #fa0606; /* Цвет текста */
+  display: flex; /* Включает Flexbox для элементов */
+  justify-content: center; /* Центрирует текст по горизонтали */
+  align-items: center; /* Центрирует текст по вертикали */
 }
