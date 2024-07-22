@@ -1,13 +1,9 @@
-:root {
-  --tg-theme-header-bg-color: var(--tg-theme-header-bg-color, blue);
-}
-
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 100vw;
-  background-color: var(--tg-theme-header-bg-color);
+  background-color: var(--tg-theme-secondary-bg-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
