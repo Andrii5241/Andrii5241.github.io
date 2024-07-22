@@ -5,9 +5,8 @@ tg.ready()
 
 tg.expand()
 
-if(tg.colorScheme === "dark"){
-  themeParams.text_color = '#F8EDED'
-}
-else if(tg.colorScheme === "light"){
-  themeParams.text_color = '#FF8225'
+if (tg.colorScheme === "dark") {
+  document.documentElement.style.setProperty('--text-color', '#F8EDED');
+} else if (tg.colorScheme === "light") {
+  document.documentElement.style.setProperty('--text-color', '#FF8225');
 }
