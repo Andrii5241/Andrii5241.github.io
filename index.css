@@ -32,7 +32,7 @@ body {
   padding: 20px;
   font-size: clamp(16px, 2vw, 24px); /* Адаптивный размер шрифта */
   font-weight: 900;
-  color: var(--tg-color-scheme); /* Цвет текста */
+  color: var(--text-color); /* Цвет текста */
   display: flex; /* Включает Flexbox для элементов */
   justify-content: center; /* Центрирует текст по горизонтали */
   align-items: center; /* Центрирует текст по вертикали */
